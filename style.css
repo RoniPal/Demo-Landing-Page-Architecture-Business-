@@ -1,0 +1,335 @@
+/*Font Import*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Orbitron:wght@400..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+body{
+    min-height: 100vh;  /*  this property for 'footer' element */
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #e9e3e3;
+}
+
+
+/*NAV---------------------*/
+nav{
+    width: 100%;
+    height: 200px;
+}
+
+/*
+.hero{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: inline-block;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    display: block;
+}
+
+nav h1{
+    background-color: bisque;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+*/
+
+.hero {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-family: "Orbitron", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* optional for text visibility */
+}
+
+
+/*ALL PICS START*_________________________ /
+/*img boxes-----------------*/
+.pics_box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.pics_box_50{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.pics{
+    width: 350px;
+    height: 250px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.pics img{
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    transition: all ease 0.3s;
+}
+
+/*FOOT IMAGE-------------------*/
+/*connect*/
+.connect{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.con_img{
+    width: 300px;
+    height: 400px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.con_img img{
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    transition: all ease 0.3s;
+}
+
+.con_form{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e6dddd;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+form p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    font-weight: 600;
+    transition: all ease 0.2s;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(247, 237, 171);
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.2;
+    background-color: green;
+    color: bisque;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 19px;
+    border: 1px solid black;
+}
+
+#sub{
+    margin-left: 6px;
+}
+
+textarea{
+    width: 192px;
+    height: 100px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+/*ALL PICS END*_________________________ /
+
+
+/*division boxes*/
+
+.divisions{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/*H2*/
+h2{
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+}
+
+#h2{
+    text-align: justify;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: rgb(95, 95, 95);
+}
+
+/*Misssion------*/
+.mission{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+@media(max-width: 1504px){
+    .divisions{
+        width: 500px;
+    }
+}
+
+@media(max-width: 1060px){
+    .divisions{
+        width: 100%;
+    }
+
+    .pics_box_50{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    h2{
+        font-size: 14px;
+    }
+
+    #h2{
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+}
+
+/*animation*/
+.pics img:hover{
+    cursor: zoom-in;
+    scale: 1.5;
+}
+
+.con_img img:hover{
+    cursor: zoom-in;
+    scale: 1.5;
+}
+
+/**FOOTER-----------------------------------**/
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.con{
+    width: 170px;
+    height: 170px;
+}
+
+.con p{
+    text-align: justify;
+    margin: 10px;
+}
+
+#add{
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#phone{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+i{
+    margin: 16px;
+}
+
